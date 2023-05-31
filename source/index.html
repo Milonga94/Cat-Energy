@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>Кэт энерджи</title>
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body class="page__body">
@@ -13,21 +14,21 @@
         <img src="img/logo-mobile.svg" width="34" height="38" alt="Логотип Кэт энерджи">
         <img src="img/logo-mobile-text.svg" width="101" height="18" alt="Логотип Кэт энерджи">
       </a>
-      <button class="main-nav__toggle" type="button"><span class="vissually-hidden">Открыть меню</span></button>
+      <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
       <div class="main-nav__wrapper">
         <ul class="main-nav__list site-list">
           <li class="site-list__item site-list__item--active">
-            <a>
+            <a class="site-list__link">
               Главная
             </a>
           </li>
           <li class="site-list__item">
-            <a href="catalog.html">
+            <a class="site-list__link" href="catalog.html">
               Каталог продукции
             </a>
           </li>
           <li class="site-list__item">
-            <a href="form.html">
+            <a class="site-list__link" href="form.html">
               Подбор программы
             </a>
           </li>
@@ -36,11 +37,9 @@
     </nav>
   </header>
   <main class="page-main">
-    <h1 class="vissually-hidden">Магазин Cat energy</h1>
     <section class="program-selection">
       <div class="program-selection__wrapper">
-        <h2 class="vissually-hidden">Подбор программы питания</h2>
-        <p class="program-selection__intro">Функциональное<br> питание для котов</p>
+        <h1 class="program-selection__heading">Функциональное<br> питание для котов</h1>
         <p class="program-selection__slogan">Занялся собой? Займись котом!</p>
         <img class="program-selection__image" src="img/index-can-mobile.svg" width="280" height="270"
           alt="Банка куринного корма Cat energy 500 грам">
@@ -49,7 +48,7 @@
     </section>
     <section class="program-types">
       <div class="program-types__wrapper">
-        <h2 class="vissually-hidden">Типы программ</h2>
+        <h2 class="visually-hidden">Типы программ</h2>
         <div class="program-types__card program-types__card--weight-loss">
           <h3 class="program-types__title">Похудение</h3>
           <p class="program-types__description">Ваш кот весит больше собаки и почти утратил способность<br>
@@ -68,7 +67,7 @@
     </section>
     <section class="how-it-works">
       <div class="how-it-works__wrapper">
-        <h2 class="how-it-works__title">Как это работает</h2>
+        <h2 class="how-it-works__heading">Как это работает</h2>
         <ol class="how-it-works__list">
           <li class="how-it-works__item how-it-works__item--first">
             <p class="how-it-works__text">Функциональное питание<br>содержит только полезные<br>питательные вещества.
@@ -91,7 +90,7 @@
     </section>
     <section class="example">
       <div class="example__wrapper">
-        <h2 class="example__title">Живой пример</h2>
+        <h2 class="example__heading">Живой пример</h2>
         <p class="example__text">Борис сбросил 5 кг за 2 месяца, просто заменив свой<br>
           обычный корм на Cat Energy Slim. Отличный результат<br>
           без изнуряющих тренировок! При этом он не менял своих<br>
@@ -116,7 +115,7 @@
       </div>
     </section>
     <footer class="page-main__footer contacts">
-      <h2 class="vissually-hidden">Контакты</h2>
+      <h2 class="visually-hidden">Контакты</h2>
       <p class="contacts__heading">Приглашаем<br>к сотрудничеству<br>дилеров!</p>
       <p class="contacts__address">ул. Большая<br>Конюшенная, д. 19/8<br>Санкт-Петербург</p>
       <img class="contacts__map" src="img/location.jpg" width="320" height="362" alt="Карта с локацией магазина">
@@ -128,18 +127,22 @@
       <div class="page-footer__social social">
         <ul class="social__list">
           <li class="social__item">
-            <a class="social__link social__link--vkontakte" href="https://vk.com/htmlacademy">Мы в Вконтакте</a>
+            <a class="social__link social__link--vkontakte" href="https://vk.com/htmlacademy">
+              <span class="visually-hidden">Мы в Вконтакте</span></a>
           </li>
           <li class="social__item">
-            <a class="social__link social__link--instagram" href="https://www.instagram.com/htmlacademy">Мы в
-              Инстаграме</a>
+            <a class="social__link social__link--instagram" href="https://www.instagram.com/htmlacademy">
+              <span class="visually-hidden">Мы в
+                Инстаграме</span></a>
           </li>
           <li class="social__item">
-            <a class="social__link social__link--facebook" href="https://www.facebook.com/htmlacademy">Мы в Фейсбуке</a>
+            <a class="social__link social__link--facebook" href="https://www.facebook.com/htmlacademy">
+              <span class="visually-hidden">Мы в Фейсбуке</span></a>
           </li>
         </ul>
         <div class="page-footer__copyright copyright">
-          <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy
+          <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">HTML
+              Academy
             <img class="copyright__logo" src="img/logo_html.svg" alt="Текстовый логотип магазина" width="27"
               height="34">
           </a>
